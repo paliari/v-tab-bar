@@ -1,49 +1,37 @@
 <template lang="html">
-<textarea class="v-tab-bar" v-model="editableValue" :maxlength="maxlength"></textarea>
+  <div class="v-tab-bar">
+    <slot></slot>
+  </div>
 </template>
 
-<script>
-export default {
-  name: 'v-tab-bar',
-  props: {
-    value: {
-      type: String,
-      default: '',
-      required: true
-    },
-
-    maxlength: {
-      type: Number,
-      default: 0,
-      required: true
-    }
-  },
-
-  data () {
-    console.log(this.value)
-    return {
-      editableValue: this.value
-    }
-  },
-
-  watch: {
-    value (newValue) {
-      this.editableValue = newValue
-    },
-
-    editableValue: {
-      immediate: true,
-      handler (newValue) {
-        this.$emit('input', newValue)
-        this.$emit('left-chars', this.leftChars)
-      }
-    }
-  },
-
-  computed: {
-    leftChars () {
-      return this.maxlength - this.editableValue.length
-    }
-  }
-}
-</script>
+<style lang="stylus">
+.v-tab-bar
+  position fixed
+  bottom 0
+  left 0
+  right 0
+  background #eee
+  display flex
+  .v-tab-bar-item
+    padding 5px
+    flex 1 0 0
+    text-align center
+    color #777
+    text-decoration none
+    i
+      font-size 1.8em
+      &.inactive
+        display block
+      &.active
+        display none
+    &.router-link-active
+      color #337ab7
+      i
+        &.inactive
+          display none
+        &.active
+          display block
+    .label
+      display block
+      font-size 10px
+</style>
