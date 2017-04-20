@@ -1,6 +1,6 @@
 {
   "name": "v-tab-bar",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A Vue Tab Bar Navigator",
   "author": "Marcos Paliari <marcos@paliari.com.br>",
   "main": "dist/v-tab-bar.js",
