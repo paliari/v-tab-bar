@@ -4,7 +4,6 @@
   "description": "A Vue Tab Bar Navigator",
   "author": "Marcos Paliari <marcos@paliari.com.br>",
   "main": "dist/v-tab-bar.js",
-  "license": "MIT",
   "scripts": {
     "dist": "vue build ./src/index.js --config ./build.config.js --dist ./dist/ --prod --lib",
     "dist:demo": "vue build ./src/demo.vue --config ./build.config.js --dist ./demo/ --prod",
@@ -19,5 +18,17 @@
   "keywords": [
     "vue",
     "component"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paliari/v-tab-bar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paliari/v-tab-bar/issues"
+  },
+  "homepage": "https://github.com/paliari/v-tab-bar#readme",
+  "license": {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  }
 }
