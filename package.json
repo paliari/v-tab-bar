@@ -5,7 +5,7 @@
   "author": "Marcos Paliari <marcos@paliari.com.br>",
   "main": "dist/v-tab-bar.js",
   "scripts": {
-    "dist": "vue build ./src/index.js --config ./build.config.js --dist ./dist/ --prod --lib",
+    "dist": "vue build ./src/v-tab-bar.js --config ./build.config.js --dist ./dist/ --prod --lib",
     "dist:demo": "vue build ./src/demo.vue --config ./build.config.js --dist ./demo/ --prod",
     "build": "npm run dist -- --disable-compress",
     "start": "npm run dev",
