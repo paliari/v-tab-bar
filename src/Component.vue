@@ -4,6 +4,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'v-tab-bar'
+}
+</script>
+
 <style lang="stylus">
 .v-tab-bar
   position fixed
