@@ -3,6 +3,17 @@ v-tab-bar
 
 > A Vue Tab Bar Navigator
 
+Installation
+------------
+
+### Using yarn
+
+`yarn add v-tab-bar`
+
+### Using npm
+
+`npm i --save v-tab-bar`
+
 Usage
 -----
 
@@ -53,17 +64,6 @@ Vue.use(VTabBar)
   </router-link>
 </v-tab-bar>
 ```
-
-Installation
-------------
-
-### Using yarn
-
-`yarn add v-tab-bar`
-
-### Using npm
-
-`npm i --save v-tab-bar`
 
 License
 -------
