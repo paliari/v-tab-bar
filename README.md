@@ -22,7 +22,7 @@ Vue.use(VTabBar)
 ### Browser
 
 ```html
-<!-- Include after Vue, string-mask and fecha -->
+<!-- Include after Vue -->
 <link rel="stylesheet" href="v-tab-bar/dist/v-tab-bar.css"></link>
 <script src="v-tab-bar/dist/v-tab-bar.js"></script>
 ```
