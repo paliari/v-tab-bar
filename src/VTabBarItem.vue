@@ -28,7 +28,6 @@ export default {
     text-align center
     color #777
     text-decoration none
-    height 45px
     &.with-label
       padding-top 5px
       i
