@@ -47,26 +47,21 @@ Vue.use(VTabBar)
 
 ```html
 <v-tab-bar>
-  <router-link class="v-tab-bar-item" to="/home">
+  <v-tab-bar-item to="/home" label="Home">
     <i class="fa fa-home"></i>
-    <span class="label">Home</span>
-  </router-link>
-  <router-link class="v-tab-bar-item" to="/list">
+  </v-tab-bar-item>
+  <v-tab-bar-item to="/list" label="List">
     <i class="fa fa-list"></i>
-    <span class="label">List</span>
-  </router-link>
-  <router-link class="v-tab-bar-item" to="/account">
+  </v-tab-bar-item>
+  <v-tab-bar-item to="/account" label="Account">
     <i class="fa fa-user"></i>
-    <span class="label">Account</span>
-  </router-link>
-  <router-link class="v-tab-bar-item" to="/config">
+  </v-tab-bar-item>
+  <v-tab-bar-item to="/config">
     <i class="fa fa-bars"></i>
-    <span class="label">Config</span>
-  </router-link>
-  <router-link class="v-tab-bar-item" to="/options">
+  </v-tab-bar-item>
+  <v-tab-bar-item to="/options" label="Options">
     <i class="fa fa-cog"></i>
-    <span class="label">Options</span>
-  </router-link>
+  </v-tab-bar-item>
 </v-tab-bar>
 ```
 
