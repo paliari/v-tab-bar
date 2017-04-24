@@ -1,9 +1,8 @@
 import Vue from 'vue'
 
-import '../dist/v-tab-bar.css'
-
-import TabBar from '../dist/v-tab-bar.js'
-Vue.use(TabBar)
+// import '../dist/v-tab-bar.css'
+// import TabBar from '../dist/v-tab-bar.js'
+// Vue.use(TabBar)
 
 import router from './router.js'
 

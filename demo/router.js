@@ -24,9 +24,9 @@ let routes = [
     path: '/config',
     component: V('Config'),
   }, {
-    name: 'options',
-    path: '/options',
-    component: V('Options'),
+    name: 'comments',
+    path: '/comments',
+    component: V('Comments'),
   }
 ]
 
