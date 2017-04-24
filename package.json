@@ -32,7 +32,6 @@
     "url": "http://www.opensource.org/licenses/mit-license.php"
   },
   "devDependencies": {
-    "font-awesome": "^4.7.0",
     "vue-router": "^2.5.1"
   }
 }
