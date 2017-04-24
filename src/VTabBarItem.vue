@@ -9,6 +9,7 @@ export default {
   name: 'v-tab-bar-item',
   props: {
     label: String,
+    exact: Boolean,
     to: {
       required: true
     }
