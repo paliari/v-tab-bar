@@ -9,7 +9,9 @@ export default {
   name: 'v-tab-bar-item',
   props: {
     label: String,
-    to: Object|String
+    to: {
+      required: true
+    }
   }
 }
 </script>
