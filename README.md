@@ -46,6 +46,8 @@ Vue.use(VTabBar)
 ### Usage example
 
 ```html
+<router-view class="v-tab-bar-router-view"></router-view>
+
 <v-tab-bar>
   <v-tab-bar-item to="/home" label="Home">
     <i class="fa fa-home"></i>
