@@ -6,7 +6,7 @@
   "main": "dist/v-tab-bar.js",
   "scripts": {
     "dist": "vue build ./src/v-tab-bar.js --config ./build.config.js --dist ./dist/ --prod --lib",
-    "dist:demo": "vue build ./demo/index.js --config ./demo/build.config.js --dist ./docs/ --prod",
+    "dist:demo": "vue build ./demo/index.js --config ./demo/build.config.js --dist ./docs/dist/ --prod",
     "build": "npm run dist -- --disable-compress",
     "start": "npm run dev",
     "dev": "vue build ./demo/index.js --config ./demo/build.config.js",

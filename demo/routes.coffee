@@ -1,9 +1,11 @@
 V = (name) -> require "./views/#{name}.vue"
 
 module.exports = [
+    path: '/'
+    redirect: '/home'
+  ,
     name: 'home'
     path: '/home'
-    alias: '/'
     component: V 'Home'
   ,
     name: 'list'

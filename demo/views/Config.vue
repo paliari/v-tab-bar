@@ -1,5 +1,5 @@
 <template lang="html">
-<div>
+<div  style="background-color: #15925E; color: #fff;">
   <h1>Config</h1>
 </div>
 </template>

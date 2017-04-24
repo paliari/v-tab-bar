@@ -1,13 +1,6 @@
 <template lang="html">
-<div id="main" style="text-align: center;">
-  <h1>DEMO v-tab-bar</h1>
-  <h2>Simple Tab Bar for Vue.js.</h2>
-  <p>
-    <a href='https://github.com/paliari/v-toaster' target='_blank'> See on Github</a>
-  </p>
-
+<div id="main">
   <router-view class="v-tab-bar-router-view"></router-view>
-
   <v-tab-bar>
     <router-link class="v-tab-bar-item" to="/home">
       <i class="fa fa-home"></i>
@@ -42,3 +35,11 @@ export default {
   components: {VTabBar}
 }
 </script>
+
+<style lang="stylus">
+#main
+  height 100%
+  text-align center
+  .v-tab-bar-router-view
+    height 100%
+</style>
