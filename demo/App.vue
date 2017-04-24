@@ -1,6 +1,10 @@
 <template lang="html">
 <div id="main" style="text-align: center;">
   <h1>DEMO v-tab-bar</h1>
+  <h2>Simple Tab Bar for Vue.js.</h2>
+  <p>
+    <a href='https://github.com/paliari/v-toaster' target='_blank'> See on Github</a>
+  </p>
 
   <router-view></router-view>
 
@@ -28,12 +32,3 @@
   </v-tab-bar>
 </div>
 </template>
-
-<script>
-export default {
-  data () {
-    return {
-    }
-  }
-}
-</script>

@@ -1,6 +1,5 @@
 import Vue from 'vue'
 
-import 'font-awesome/css/font-awesome.css'
 import '../dist/v-tab-bar.css'
 
 import TabBar from '../dist/v-tab-bar.js'
