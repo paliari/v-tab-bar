@@ -2,39 +2,29 @@
 <div id="main">
   <router-view class="v-tab-bar-router-view"></router-view>
   <v-tab-bar>
-    <router-link class="v-tab-bar-item" to="/home">
-      <i class="fa fa-home"></i>
-      <span class="label">Home</span>
-    </router-link>
-    <router-link class="v-tab-bar-item" to="/list">
-      <i class="fa fa-list"></i>
-      <span class="label">List</span>
-    </router-link>
-    <router-link class="v-tab-bar-item" to="/comments">
-      <i class="fa fa-comments-o inactive"></i>
-      <i class="fa fa-comments active"></i>
-      <span class="label">Comments</span>
-    </router-link>
-    <router-link class="v-tab-bar-item" to="/account">
-      <i class="fa fa-user-o inactive"></i>
-      <i class="fa fa-user active"></i>
-      <span class="label">Account</span>
-    </router-link>
-    <router-link class="v-tab-bar-item" to="/config">
-      <i class="fa fa-bars"></i>
-      <span class="label">Config</span>
-    </router-link>
+    <v-tab-bar-item v-for="item in items" :to="item.to" :label="item.label">
+      <i v-for='i in item.icon' :class="'fa ' + i"></i>
+    </v-tab-bar-item>
   </v-tab-bar>
 </div>
 </template>
 
 <script>
 import VTabBar from '../src/VTabBar.vue'
+import VTabBarItem from '../src/VTabBarItem.vue'
 
 export default {
-  components: {VTabBar},
-  created () {
-    window.a = this
+  components: {VTabBar, VTabBarItem},
+  data () {
+    return {
+      items: [
+        {to: '/home', icon: ['fa-home'], label: 'Home'},
+        {to: '/list', icon: ['fa-list'], label: ''},
+        {to: '/comments', icon: ['fa-comments-o inactive', 'fa-comments active'], label: 'Comments'},
+        {to: '/account', icon: ['fa-user-o inactive', 'fa-user active'], label: ''},
+        {to: '/config', icon: ['fa-bars'], label: 'Config'},
+      ]
+    }
   }
 }
 </script>
