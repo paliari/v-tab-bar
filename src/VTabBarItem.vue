@@ -1,5 +1,5 @@
 <template lang="pug">
-router-link.v-tab-bar-item(:class="{'with-label': label}", :to='to')
+router-link.v-tab-bar-item(:class="{'with-label': label}", :to='to', :exact='exact')
   slot
   .v-tab-bar-item-label(v-if='label') {{label}}
 </template>
