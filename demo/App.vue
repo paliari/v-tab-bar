@@ -32,7 +32,10 @@
 import VTabBar from '../src/VTabBar.vue'
 
 export default {
-  components: {VTabBar}
+  components: {VTabBar},
+  created () {
+    window.a = this
+  }
 }
 </script>
 
