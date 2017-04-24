@@ -14,6 +14,11 @@ Installation
 
 `npm i --save v-tab-bar`
 
+Demo
+----
+
+[DEMO](http://paliari.github.io/v-tab-bar)
+
 Usage
 -----
 
