@@ -90,7 +90,7 @@ or
 
 ## Contribution
 
-You're free to contribute to this project by submitting issues and/or pull requests
+You're free to contribute to this project by submitting [issues](https://github.com/paliari/v-tab-bar/issues) and/or [pull requests](https://github.com/paliari/v-tab-bar/pulls)
 
 ## License
 
