@@ -1,5 +1,4 @@
 # v-tab-bar
----
 
 > A Vue Tab Bar Navigator
 
