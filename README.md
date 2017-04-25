@@ -1,10 +1,9 @@
-v-tab-bar
-=========
+# v-tab-bar
+---
 
 > A Vue Tab Bar Navigator
 
-Installation
-------------
+## Installation
 
 ### Using yarn
 
@@ -14,13 +13,9 @@ Installation
 
 `npm i --save v-tab-bar`
 
-Demo
-----
+## [DEMO](http://paliari.github.io/v-tab-bar)
 
-[DEMO](http://paliari.github.io/v-tab-bar)
-
-Usage
------
+## Usage
 
 ### Bundler (Webpack, Rollup)
 
@@ -43,7 +38,7 @@ Vue.use(VTabBar)
 <script src="v-tab-bar/dist/v-tab-bar.js"></script>
 ```
 
-### Usage example
+### Example
 
 ```html
 <router-view class="v-tab-bar-router-view"></router-view>
@@ -67,7 +62,36 @@ Vue.use(VTabBar)
 </v-tab-bar>
 ```
 
-License
--------
+## Development
+
+### Start demo/development environment
+
+    $ npm start
+
+or
+
+    $ yarn start
+
+### Generate a dist from the demo
+
+    $ npm run dist:demo
+
+or
+
+    $ yarn dist:demo
+
+### Generate a dist from the project
+
+    $ npm run dist
+
+or
+
+    $ yarn dist
+
+## Contribution
+
+You're free to contribute to this project by submitting issues and/or pull requests
+
+## License
 
 This project is licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License)
