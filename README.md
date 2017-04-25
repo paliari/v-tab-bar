@@ -66,25 +66,13 @@ Vue.use(VTabBar)
 
 ### Start demo/development environment
 
-    $ npm start
-
-or
-
     $ yarn start
 
-### Generate a dist from the demo
-
-    $ npm run dist:demo
-
-or
+### Demo dist
 
     $ yarn dist:demo
 
-### Generate a dist from the project
-
-    $ npm run dist
-
-or
+### Dist
 
     $ yarn dist
 
