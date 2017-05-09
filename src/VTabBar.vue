@@ -19,6 +19,7 @@ export default {
   background #eee
   display flex
   height 45px
+  z-index 9999
 .v-tab-bar-router-view
   margin-bottom 45px
 </style>
